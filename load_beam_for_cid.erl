@@ -13,7 +13,12 @@ main(A) ->
 
 pass([],List) ->
 	List1=lists:flatten(List),
-	file:write_file("/home/user/path3.txt", io_lib:fwrite("~p.\n", [List1]));
+	A=os:cmd("echo $HOME"),
+	B=lists:reverse(A),
+	C=lists:nthtail(1,B),
+	D=lists:reverse(C),
+	E=lists:append(D,"/path3.txt"),
+	file:write_file(E, io_lib:fwrite("~p.\n", [List1]));
 	%io:format("~n List is ~p \n List is over ~n Byeee ~n",[List1]);
 	
 pass([H|T],Acc) ->
