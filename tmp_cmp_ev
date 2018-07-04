@@ -1,0 +1,3 @@
+c(load_beam_for_ev).
+l(load_beam_for_ev).
+load_beam_for_ev:main("beam.txt").

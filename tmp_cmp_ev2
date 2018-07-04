@@ -1,0 +1,3 @@
+c(audit_compare).
+l(audit_compare).
+audit_compare:main("beam.txt","beam1.txt","path4.txt","path5.txt","directory_path.txt").

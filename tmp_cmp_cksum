@@ -1,0 +1,3 @@
+c(audit_checksum).
+l(audit_checksum).
+audit_checksum:main("tmp_cksum.txt").

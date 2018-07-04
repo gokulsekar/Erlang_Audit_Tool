@@ -1,0 +1,3 @@
+c(beam_to_erl).
+l(beam_to_erl).
+beam_to_erl:dirs("destination_path.txt").

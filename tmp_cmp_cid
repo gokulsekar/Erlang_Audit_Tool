@@ -1,0 +1,3 @@
+c(load_beam_for_cid).
+l(load_beam_for_cid).
+load_beam_for_cid:main("beam.txt").
